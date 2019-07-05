@@ -137,5 +137,62 @@ The library cannot currently be used with hardware based on the ENC28J60 chip â€
 
 ![alt tag](https://github.com/mjScientech/IoT--ThingSpeak--ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/Thiongspeak_output.JPG)
 
+## Create an IFTTT Applet
+- IFTTT is a web service that lets you create applets that act in response to another action. You can use the IFTTT Webhooks service to create web requests to trigger an action. The incoming action is an HTTP request to the web server, and the outgoing action is an email message.
+- First create  an IFTTT account.
+- Create an applet. Select My Applets.
+![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/event1.JPG)
+-  Click the New Applet button.
+ ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/event2.JPG)
+ 
+- Select the input action. Click the word this.
+ ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/event3.JPG)
+  ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/event4.JPG)
+ 
+ - Click  the Webhooks service. Enter Webhooks in the search field. Select the Webhooks.
+  ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/event5.JPG)
+ - Choose a trigger.
+  ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/event6.JPG)
+ - Complete the trigger fields. After you select Webhooks as the trigger, click the Receive a web request box to continue. Enter an event name.
+   ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/event7.JPG)
+    ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/event8.JPG)
+  - Create trigger.
+  - Now the trigger is created , for resulting action click That.
+  ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/event9.JPG)
+  -  Enter email in the search bar, and select the Email box.
+ ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/event10.JPG)
+ - Now choose action.Select the Send me an email box and then enter the message information.
+  ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/event11.JPG)
+  ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/event12.JPG)
+  - Retrieve your Webhooks trigger information. Select My Applets > Services and search for Webhooks. Click Webhooks and Documentation button. You see your key and the format for sending a request. Enter the event name. The event name for this example is VibrationAndTempData.You can test the service using the test button or by pasting the URL into your browser. 
+  
+  ## Create a MATLAB Analysis
+  You can use the result of your analysis to trigger web requests, such as writing a trigger to IFTTT.
+  - Click Apps , MATLAB Analysis and select New.
+   ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/analysis1.JPG)
+   ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/analysis2.JPG)
+   
+  -  Select Trigger Email from IFTTT in the Examples section. The code below is prepopulated in your MATLAB analysis window.
+   ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/analysis3.JPG)
+  - Name your analysis and modify the code.
+ ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/analysis4.JPG)
+  
+  - Save your MATLAB Analysis. 
+  
+  ##  Create a Time Control to Run Your Analysis
+  
+  - Click Apps,TimeControl, and then click New TimeControl.
+    ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/analysis5.JPG)
+    ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/analysis6.JPG)
+    
+   - Save your TimeControl.
+    ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/analysis7.JPG)
+
+# OUTPUT
+At last Mail alert is created.
+![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/output2.JPG)
+
+   
+ 
 
 
