@@ -20,6 +20,7 @@ NodeLynk I2C cables with 4-color wire and latching connectors to link sensors an
 Software Used:
 - Arduino IDE
 - [ThigSpeak](https://thingspeak.com/)
+- [IFTTT](https://ifttt.com/discover)
 
 Library Used:
 - PubSubClient Library
@@ -180,7 +181,7 @@ The library cannot currently be used with hardware based on the ENC28J60 chip â€
   - Save your MATLAB Analysis. 
   
   ##  Create a Time Control to Run Your Analysis
-  
+  Evaluate your ThingSpeak channel data and trigger other events.
   - Click Apps,TimeControl, and then click New TimeControl.
     ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/analysis5.JPG)
     ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/analysis6.JPG)
@@ -189,7 +190,7 @@ The library cannot currently be used with hardware based on the ENC28J60 chip â€
     ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/analysis7.JPG)
 
 # OUTPUT
-At last Mail alert is created.
+- At last Mail alert is created.
 ![alt tag](https://github.com/mjScientech/Creating-Alert-using-ThingSpeak-ESP32-Long-Range-Wireless-Vibration-And-Temp/blob/master/output2.JPG)
 
    
