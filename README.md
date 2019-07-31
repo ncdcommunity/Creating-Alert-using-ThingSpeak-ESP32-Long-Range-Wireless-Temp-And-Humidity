@@ -15,6 +15,7 @@
 **Software Used:**
 - Arduino IDE
 - ThingSpeak
+- IFTTT
 
 **Library Used:**
 - PubSubClient Library
